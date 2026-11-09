@@ -29,10 +29,13 @@ This analysis reviewed the customer journey across funnel stages, conversion beh
 
 ### 1. The funnel is strongest in the final stages
 Approximately 39.70% of all sessions contain only five steps, and the final stage shows a particularly strong conversion pattern. Once users reach the checkout stage, they have a 91.78% probability of continuing to confirmation. This indicates that the business is performing well at the end of the funnel, where motivated users are most likely to complete the purchase.
+
 ![Funnel Analysis Premium](05_funnel_analysis_premium.png)
 
 ### 2. The funnel follows a strict, sequential path
-No user session skipped any steps in the expected funnel order. This suggests a highly structured journey, and it may also indicate that the dataset was generated or curated in a way that enforces a logical sequence. While the data is useful for testing funnel logic, it does not reflect the irregular flow that is common in real-world customer behavior.
+No user session skipped any steps in the expected funnel order. This suggests a highly structured journey, and it may also indicate that the dataset was generated or curated in a way that enforces a logical sequence. While the data is useful for testing funnel logic, it does not reflect the irregular flow that is common in real-world customer behavior. 
+
+![funnel analysis](01_funnel_analysis.png)
 
 ### 3. The biggest drop-off happens before the cart is completed
 The largest decline occurs between the product page and the cart, with a 59.89% reduction in sessions. This is the most important point of friction in the funnel and the clearest place to focus optimization efforts. If users fail to add or commit to items at this stage, the conversion path becomes much weaker downstream.
