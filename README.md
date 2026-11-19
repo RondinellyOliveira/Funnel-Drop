@@ -25,7 +25,7 @@ Finding where users drop off in an online store — and what it is actually cost
 
 This analysis reviewed the customer journey across funnel stages, conversion behavior, and key audience segments to understand where users drop off and whether certain groups show meaningful differences in purchase conversion.
 
-## Seven Key Insights
+## Eight Key Insights
 
 ### 1. The funnel is strongest in the final stages
 Approximately 39.70% of all sessions contain only five steps, and the final stage shows a particularly strong conversion pattern. Once users reach the checkout stage, they have a 91.78% probability of continuing to confirmation. This indicates that the business is performing well at the end of the funnel, where motivated users are most likely to complete the purchase.
@@ -43,14 +43,25 @@ The largest decline occurs between the product page and the cart, with a 59.89% 
 ### 4. Cart size does not meaningfully explain conversion differences
 Users with 1 or 3 items in their carts show the highest conversion rates, but the differences across cart sizes are not statistically significant. In practical terms, cart size does not appear to have a strong causal relationship with purchase conversion. That means businesses should be careful not to overinterpret cart-size patterns without further evidence.
 
+![funnel analysis conversion](05_funnel_analysis_conversion.png)
+
 ### 5. Device type does not create a statistically meaningful conversion gap
 When comparing conversion contribution by device, the observed differences are not statistically significant. In other words, purchase behavior is not meaningfully different across device groups in this dataset. This suggests that device-specific optimization should not be assumed to be the primary lever for conversion improvement.
+
+![device conversions heatmap](03_device_conversions_heatmap.png)
 
 ### 6. Country is not a significant driver of purchase conversion
 The analysis of conversion by country shows no statistically significant difference in purchase behavior across locations. Although some countries may show slightly different funnel patterns, the variation is not strong enough to conclude that country alone explains conversion differences.
 
+![country conversions heatmapp](03_country_conversions_heatmap.png)
+
 ### 7. Referral source does not create a material conversion difference
 As with device and country, there is no statistically significant difference in purchase conversion across referral sources. This suggests that acquisition source is not the main factor driving purchase outcomes in this dataset, and that conversion performance is more likely shaped by the user experience within the funnel itself.
+
+![referral conversions heatmap](03_referral_conversions_heatmap.png)
+
+### 8. Purchasers spend longer in a session
+The boxplot shows that the median session duration for users who made a purchase is four times higher than for users who did not. Because most sessions contain only a few steps, the median is a more representative measure for comparing session duration by purchase status.
 
 ## Conclusion
 The strongest takeaway from this analysis is that the primary business opportunity lies in reducing drop-off at the product-to-cart transition. The funnel is well-structured and conversion is strong at the final stages, but the largest leakage occurs before users complete their cart journey. Across the dimensions examined — cart size, device, country, and referral source — no segment shows a statistically significant difference in purchase conversion. This means the optimization strategy should focus on universal funnel improvements, especially checkout and cart UX, rather than on segment-specific assumptions. In short, the strongest path to improvement is to remove friction in the purchase flow rather than chase small differences between audiences.
