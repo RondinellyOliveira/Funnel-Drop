@@ -63,6 +63,8 @@ As with device and country, there is no statistically significant difference in 
 ### 8. Purchasers spend longer in a session
 The boxplot shows that the median session duration for users who made a purchase is four times higher than for users who did not. Because most sessions contain only a few steps, the median is a more representative measure for comparing session duration by purchase status.
 
+![purchase status session time](04_Purchase_Status_session_time.png)
+
 ## Conclusion
 The strongest takeaway from this analysis is that the primary business opportunity lies in reducing drop-off at the product-to-cart transition. The funnel is well-structured and conversion is strong at the final stages, but the largest leakage occurs before users complete their cart journey. Across the dimensions examined — cart size, device, country, and referral source — no segment shows a statistically significant difference in purchase conversion. This means the optimization strategy should focus on universal funnel improvements, especially checkout and cart UX, rather than on segment-specific assumptions. In short, the strongest path to improvement is to remove friction in the purchase flow rather than chase small differences between audiences.
 
