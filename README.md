@@ -66,9 +66,7 @@ The boxplot shows that the median session duration for users who made a purchase
 ![purchase status session time](04_Purchase_Status_session_time.png)
 
 ## Conclusion
-The strongest takeaway from this analysis is that the primary business opportunity lies in reducing drop-off at the product-to-cart transition. The funnel is well-structured and conversion is strong at the final stages, but the largest leakage occurs before users complete their cart journey. Across the dimensions examined — cart size, device, country, and referral source — no segment shows a statistically significant difference in purchase conversion. This means the optimization strategy should focus on universal funnel improvements, especially checkout and cart UX, rather than on segment-specific assumptions. In short, the strongest path to improvement is to remove friction in the purchase flow rather than chase small differences between audiences.
-
----
+The strongest takeaway from this analysis is that the primary business opportunity lies in reducing drop-off at the product-to-cart transition. The funnel is well-structured, and conversion is strong at the final stages, but the largest leakage occurs before users complete their cart journey. Across the dimensions examined — cart size, device, country, and referral source — no segment shows a statistically significant difference in purchase conversion. This means the optimization strategy should focus on universal funnel improvements, especially checkout and cart UX, rather than on segment-specific assumptions. Classically, most funnels don't break at the top or the bottom; they break in the middle. In our measurements, the transition from the product page to the cart is exactly where the largest loss occurs, corresponding to the middle of the funnel. There are many strategies that can be used after identifying the stage with the greatest leakage, such as: Fix Page & Offer Mismatch, Reduce On-Page & Checkout Friction, and Capture & Recover Unconverted Visitors. In short, the strongest path to improvement is to remove friction in the purchase flow rather than chase small differences between audiences.
 
 ## Project Overview
 
